@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Temporary files
+*.tmp
+*.temp
+
+# Node modules (for future labs)
+node_modules/
+npm-debug.log*
+
+# Environment variables (for future labs)
+.env
+.env.local
