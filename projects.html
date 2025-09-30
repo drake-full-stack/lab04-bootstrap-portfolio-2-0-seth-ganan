@@ -16,6 +16,37 @@
     text-align: center;
     background-color: lightgray;
   }
+ 
+:root {
+    --bs-primary: lightgray;
+    --bs-secondary: black;
+    --bs-success: yellow;
+    --bs-gradient-primary: linear-gradient(45deg, black, blue);
+
+    /* This changes all Bootstrap components */
+}
+
+.btn-primary {
+  background: var(--bs-gradient-primary);
+  border: none;
+}
+.nav-item {
+  color: var(--bs-secondary);
+}
+.navbar-brand {
+  color: var(--bs-primary);
+}
+
+.navbar{
+  background: var(--bs-gradient-primary);
+}
+.nav-link{
+  color: var(--bs-primary);
+}
+body{
+  background: var(--bs-primary);
+  color: var(--bs-secondary);
+}
 </style>
 <body>
     <header>
