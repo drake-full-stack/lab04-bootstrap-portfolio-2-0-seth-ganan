@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seth Ganan - Portfolio</title>
@@ -17,12 +18,22 @@
     <!-- TODO: Build your portfolio here! -->
 <body>
   <header>
-    <h1>
-      Seth's Portfolio |
-      <a href="index.html">Home</a> |
-      <a href="hobbies.html">Hobbies</a> |
-      <a href="projects.html">Projects</a>
-    </h1>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Seth Ganan</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="hobbies.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
   </header>
   <img src="../lab01-portfolio-template-seth-ganan/img/photo.jpg" alt="Seth Ganan" width="200" style="display: block; margin-left: auto; margin-right: auto;">
     <h1>Welcome to My Portfolio</h1>
@@ -30,5 +41,6 @@
                         Artificial Intelligence major with a minor in
                         Cybersecurity & Entrepeneurship. After college Seth plans on working in Network Infrastructure and becoming a Pen Tester further down the line. In
                         Seth's free time he loves to explore beaches, watch survivor, and cook great food.</p>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
